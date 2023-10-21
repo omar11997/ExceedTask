@@ -1,0 +1,11 @@
+﻿@model Product
+<h1>Details of @Model.Name</h1>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">Product Price : @Model.Price</p>
+        <p class="card-text">Product Creation : @Model.CreationDate</p>
+        <p class="card-text">Product Duration : @Model.DurationInDays Days</p>
+        <a href="/product/GetallProducts" class="btn btn-primary" style="text-align:center">Back To List</a>
+    </div>
+</div>

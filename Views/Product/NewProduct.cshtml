@@ -1,0 +1,39 @@
+﻿@using ExeedTask.ViewModels
+@model ProductToAdd
+
+@{
+    SelectList categoryOptios = new SelectList(ViewBag.Categories, "Id", "Name");
+}
+<div class="container">
+    <h2>New Product Info</h2>
+
+    
+    <form method="post" asp-action="AddProduct" asp-controller="Product">
+        <div class="form-group">
+            <label asp-for="Name">Product Name :</label>
+            <input type="text" class="form-control" asp-for="Name" required />
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">Product Price:</label>
+            <input type="number" class="form-control" asp-for="Price" required />
+        </div>
+        <div class="form-group">
+            <label asp-for="StartDate">Start Date :</label>
+            <input type="date" class="form-control" asp-for="StartDate" required />
+        </div>
+        <div class="form-group">
+            <label asp-for="DurationInDays">Duration In Days :</label>
+            <input type="number" class="form-control" asp-for="DurationInDays" required />
+
+        </div>
+        <div>
+            <label asp-for="CategoryId">Choose Category</label>
+            <select asp-for="CategoryId" class="form-control" asp-items="categoryOptios">
+                <option value="0">----select Category-------</option>
+
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <a href="/Product/GetallProducts" class="btn btn-primary" style="margin-top: 10px">Back To List</a>
+</div>
