@@ -10604,11 +10604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\ExeedTask\\ExeedTask.csproj",
+      "projectUniqueName": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\New folder\\ExceedTask\\ExeedTask.csproj",
       "projectName": "ExeedTask",
-      "projectPath": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\ExeedTask\\ExeedTask.csproj",
+      "projectPath": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\New folder\\ExceedTask\\ExeedTask.csproj",
       "packagesPath": "C:\\Users\\Omar\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\ExeedTask\\obj\\",
+      "outputPath": "D:\\ITI 9 months internship\\MVC(ASP.NET)\\New folder\\ExceedTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omar\\AppData\\Roaming\\NuGet\\NuGet.Config",

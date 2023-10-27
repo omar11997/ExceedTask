@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExeedTask
 build_property.RootNamespace = ExeedTask
-build_property.ProjectDir = D:\ITI 9 months internship\MVC(ASP.NET)\ExeedTask\
+build_property.ProjectDir = D:\ITI 9 months internship\MVC(ASP.NET)\New folder\ExceedTask\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ITI 9 months internship\MVC(ASP.NET)\ExeedTask
+build_property.MSBuildProjectDirectory = D:\ITI 9 months internship\MVC(ASP.NET)\New folder\ExceedTask
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Account/AccessDenied.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Account/LogIn.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Account/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Account/Register.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Account/RegisterAdmin.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Account/RegisterAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Home/Index.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Home/Privacy.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Product/Edit.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Product/GetallProducts.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Product/GetallProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRhbGxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Product/GetProductOfCategory.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Product/GetProductOfCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0T2ZDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Product/NewProduct.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Product/NewProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxOZXdQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Product/ProductDetails.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Product/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Shared/Error.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/_ViewImports.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/_ViewStart.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITI 9 months internship/MVC(ASP.NET)/ExeedTask/Views/Shared/_Layout.cshtml]
+[D:/ITI 9 months internship/MVC(ASP.NET)/New folder/ExceedTask/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-15fkimoxpl

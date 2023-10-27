@@ -23,12 +23,13 @@
 		<th>Product Details</th>
 		<th>Delete Product</th>
 		<th>Edit </th>
+		<th style="display:none">CategoryId </th>
 
 
 	</tr>
 	@foreach (var item in Model)
 	{
-		<tr>
+		<tr id="product" style="display: table-row;">
 		
 			<td>@item.Name</td>
 			<td>@item.Price</td>
@@ -39,26 +40,29 @@
 		
 			<td><button class="btn btn-danger"><a href="/Product/DeleteProduct/@item.Id">Delete</a></button></td>
 			<td><a href="/Product/Edit/@item.Id" class="btn btn-primary">EDIT</a></td>
+			<td style="display:none">@item.CategoryId</td>
 		</tr>
 	}
 </table>
 
 @section Scripts{
-	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script>
 		function filter() {
-			console.log("omar");
-			var categoryId = $("#catId").val();
-			console.log(categoryId);
-			if(categoryId == 0)
-			{
-				window.location.href = "/product/GetAllProducts"
-			}else{
-				window.location.href = `/product/GetProductOfCategory/${categoryId}`
+				var SelectedCategoryId = document.querySelector("#catId").value;
+				console.log(SelectedCategoryId);
+				var allProduct = document.querySelectorAll("#product");
+				allProduct.forEach(function(product){
+					var productCategory = product.querySelector("td:last-child").textContent;
+					if (SelectedCategoryId == "0" || productCategory == SelectedCategoryId) {
+						product.style.display = "table-row";
+					} else {
+						product.style.display = "none";
+					}
+				});
+
+
+
 			}
-			
-			
-		}
 		
 	</script>
 	
