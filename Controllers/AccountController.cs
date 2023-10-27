@@ -65,7 +65,7 @@ namespace ExeedTask.Controllers
 					bool found = await UserManager.CheckPasswordAsync(userDb, userVm.Password);
 					if (found)
 					{
-						await SignInManager.SignInAsync(userDb,userVm.RememberMe);
+						await SignInManager.SignInAsync(userDb, isPersistent: userVm.RememberMe);
 						return RedirectToAction("index", "Home");
 					}
                     ModelState.AddModelError("", "Wrong UserName or Password");
