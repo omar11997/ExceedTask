@@ -34,8 +34,8 @@ namespace ExeedTask.Controllers
                 foreach (Product product in products)
                 {
                     DateTime productStartDate = new DateTime(product.StartDate.Year, product.StartDate.Month, product.StartDate.Day);
-                    TimeSpan differenceInDays = productStartDate - currentDate;
-                    if (differenceInDays.Days <= product.DurationInDays)
+                    TimeSpan differenceInDays = currentDate - productStartDate;
+                    if (differenceInDays.Days > 0  && differenceInDays.Days <= product.DurationInDays)
                     {
                         productsToShow.Add(product);
                     }
