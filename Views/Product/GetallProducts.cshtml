@@ -5,7 +5,6 @@
 <div>
 	<label >Choose Category</label>
 	<select class="form-control" asp-items="categoryOptios" onchange="filter()" id="catId">
-		<option></option>
 		<option value="0">----All Products-------</option>
 
 	</select>
@@ -39,7 +38,7 @@
 			<td><a href="/Product/ProductDetails/@item.Id" class="btn btn-primary">Details</a></td>
 		
 			@*<td><button class="btn btn-danger"><a href="/Product/DeleteProduct/@item.Id" onclick="removeProduct(@item.Id)">Delete</a></button></td>*@
-			<td><button class="btn btn-danger"><a href="#" onclick="removeProduct('@item.Id')">Delete</a></button></td>
+			<td><button class="btn btn-danger" onclick="removeProduct('@item.Id')">Delete</button></td>
 			<td><a href="/Product/Edit/@item.Id" class="btn btn-primary">EDIT</a></td>
 			<td style="display:none">@item.CategoryId</td>
 		</tr>
